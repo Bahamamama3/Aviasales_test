@@ -11,7 +11,11 @@ import SwiftUI
 struct AviasalesTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let testOrigin = "MOW"
+            let testDestination = "LED"
+            let service: SearchServiceInterface = SearchService()
+            let viewModel = MainViewModel(service: service, origin: testOrigin, destination: testDestination)
+            MainView(viewModel: viewModel)
         }
     }
 }

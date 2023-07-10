@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		A17449692A599F6D001926CE /* AviasalesTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449682A599F6D001926CE /* AviasalesTestApp.swift */; };
-		A174496B2A599F6D001926CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174496A2A599F6D001926CE /* ContentView.swift */; };
+		A174496B2A599F6D001926CE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174496A2A599F6D001926CE /* MainView.swift */; };
 		A174496D2A599F6E001926CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A174496C2A599F6E001926CE /* Assets.xcassets */; };
 		A17449702A599F6E001926CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A174496F2A599F6E001926CE /* Preview Assets.xcassets */; };
 		A174497A2A599F6F001926CE /* AviasalesTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449792A599F6F001926CE /* AviasalesTestTests.swift */; };
 		A17449842A599F6F001926CE /* AviasalesTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449832A599F6F001926CE /* AviasalesTestUITests.swift */; };
 		A17449862A599F6F001926CE /* AviasalesTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449852A599F6F001926CE /* AviasalesTestUITestsLaunchTests.swift */; };
+		A17449962A59A0E6001926CE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449952A59A0E6001926CE /* HTTPClient.swift */; };
+		A17449982A59A1AB001926CE /* EndpointScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449972A59A1AB001926CE /* EndpointScheme.swift */; };
+		A174499A2A59A210001926CE /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449992A59A210001926CE /* RequestError.swift */; };
+		A174499C2A59A241001926CE /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174499B2A59A241001926CE /* RequestMethod.swift */; };
+		A17449A02A59A496001926CE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174499F2A59A496001926CE /* Endpoints.swift */; };
+		A17449A32A59AE07001926CE /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449A22A59AE07001926CE /* SearchService.swift */; };
+		A17449A52A59AF11001926CE /* SearchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449A42A59AF11001926CE /* SearchDTO.swift */; };
+		A17449A72A59B176001926CE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449A62A59B176001926CE /* MainViewModel.swift */; };
+		A17449AD2A59BB66001926CE /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449AC2A59BB66001926CE /* DetailsView.swift */; };
+		A17449B52A59E035001926CE /* SearchEnitity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449B42A59E035001926CE /* SearchEnitity.swift */; };
+		A17449B82A5AADA2001926CE /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449B72A5AADA2001926CE /* DetailViewModel.swift */; };
+		A17449BA2A5ADF7A001926CE /* SearchResultEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449B92A5ADF7A001926CE /* SearchResultEntity.swift */; };
+		A17449BE2A5B299C001926CE /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449BD2A5B299C001926CE /* Components.swift */; };
+		A17449C02A5B29CA001926CE /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449BF2A5B29CA001926CE /* Date+.swift */; };
+		A17449C22A5B29E8001926CE /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449C12A5B29E8001926CE /* String+.swift */; };
+		A17449C42A5B436A001926CE /* CityAndDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449C32A5B436A001926CE /* CityAndDateView.swift */; };
+		A17449C62A5B4394001926CE /* MainViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449C52A5B4394001926CE /* MainViewRow.swift */; };
+		A17449C82A5B43F9001926CE /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449C72A5B43F9001926CE /* ErrorView.swift */; };
+		A17449CB2A5C439F001926CE /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449CA2A5C439F001926CE /* UIColor+.swift */; };
+		A17449CE2A5C4617001926CE /* SearchServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17449CD2A5C4617001926CE /* SearchServiceInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,7 @@
 /* Begin PBXFileReference section */
 		A17449652A599F6D001926CE /* AviasalesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviasalesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17449682A599F6D001926CE /* AviasalesTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviasalesTestApp.swift; sourceTree = "<group>"; };
-		A174496A2A599F6D001926CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A174496A2A599F6D001926CE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A174496C2A599F6E001926CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A174496F2A599F6E001926CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A17449752A599F6F001926CE /* AviasalesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviasalesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,27 @@
 		A174497F2A599F6F001926CE /* AviasalesTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviasalesTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17449832A599F6F001926CE /* AviasalesTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviasalesTestUITests.swift; sourceTree = "<group>"; };
 		A17449852A599F6F001926CE /* AviasalesTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviasalesTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A17449952A59A0E6001926CE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		A17449972A59A1AB001926CE /* EndpointScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointScheme.swift; sourceTree = "<group>"; };
+		A17449992A59A210001926CE /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		A174499B2A59A241001926CE /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		A174499F2A59A496001926CE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A17449A22A59AE07001926CE /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		A17449A42A59AF11001926CE /* SearchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTO.swift; sourceTree = "<group>"; };
+		A17449A62A59B176001926CE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A17449AC2A59BB66001926CE /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		A17449AE2A59C93F001926CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A17449B42A59E035001926CE /* SearchEnitity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEnitity.swift; sourceTree = "<group>"; };
+		A17449B72A5AADA2001926CE /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		A17449B92A5ADF7A001926CE /* SearchResultEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultEntity.swift; sourceTree = "<group>"; };
+		A17449BD2A5B299C001926CE /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A17449BF2A5B29CA001926CE /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		A17449C12A5B29E8001926CE /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		A17449C32A5B436A001926CE /* CityAndDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAndDateView.swift; sourceTree = "<group>"; };
+		A17449C52A5B4394001926CE /* MainViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRow.swift; sourceTree = "<group>"; };
+		A17449C72A5B43F9001926CE /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A17449CA2A5C439F001926CE /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		A17449CD2A5C4617001926CE /* SearchServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +135,12 @@
 		A17449672A599F6D001926CE /* AviasalesTest */ = {
 			isa = PBXGroup;
 			children = (
+				A17449AE2A59C93F001926CE /* Info.plist */,
 				A17449682A599F6D001926CE /* AviasalesTestApp.swift */,
-				A174496A2A599F6D001926CE /* ContentView.swift */,
+				A17449922A59A032001926CE /* Data */,
+				A17449942A59A05A001926CE /* Domain */,
+				A17449A92A59BADA001926CE /* Presentation */,
+				A17449B32A59DB25001926CE /* Extensions */,
 				A174496C2A599F6E001926CE /* Assets.xcassets */,
 				A174496E2A599F6E001926CE /* Preview Content */,
 			);
@@ -125,6 +170,127 @@
 				A17449852A599F6F001926CE /* AviasalesTestUITestsLaunchTests.swift */,
 			);
 			path = AviasalesTestUITests;
+			sourceTree = "<group>";
+		};
+		A17449922A59A032001926CE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A17449BC2A5AE405001926CE /* API */,
+				A17449B62A59E047001926CE /* DTOs */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A17449942A59A05A001926CE /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A17449CC2A5C45FE001926CE /* Services */,
+				A17449B42A59E035001926CE /* SearchEnitity.swift */,
+				A17449B92A5ADF7A001926CE /* SearchResultEntity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A174499D2A59A264001926CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A17449952A59A0E6001926CE /* HTTPClient.swift */,
+				A17449972A59A1AB001926CE /* EndpointScheme.swift */,
+				A17449992A59A210001926CE /* RequestError.swift */,
+				A174499B2A59A241001926CE /* RequestMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A174499E2A59A477001926CE /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				A174499F2A59A496001926CE /* Endpoints.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		A17449A12A59ADC7001926CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A17449A22A59AE07001926CE /* SearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A17449A82A59BAD1001926CE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A174496A2A599F6D001926CE /* MainView.swift */,
+				A17449C52A5B4394001926CE /* MainViewRow.swift */,
+				A17449A62A59B176001926CE /* MainViewModel.swift */,
+				A17449C32A5B436A001926CE /* CityAndDateView.swift */,
+				A17449BB2A5ADFC5001926CE /* DetailsView */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A17449A92A59BADA001926CE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A17449C92A5B509A001926CE /* Error */,
+				A17449A82A59BAD1001926CE /* MainView */,
+				A17449BD2A5B299C001926CE /* Components.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A17449B32A59DB25001926CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A17449C12A5B29E8001926CE /* String+.swift */,
+				A17449BF2A5B29CA001926CE /* Date+.swift */,
+				A17449CA2A5C439F001926CE /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A17449B62A59E047001926CE /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				A17449A42A59AF11001926CE /* SearchDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		A17449BB2A5ADFC5001926CE /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				A17449AC2A59BB66001926CE /* DetailsView.swift */,
+				A17449B72A5AADA2001926CE /* DetailViewModel.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		A17449BC2A5AE405001926CE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A174499D2A59A264001926CE /* Base */,
+				A174499E2A59A477001926CE /* Endpoints */,
+				A17449A12A59ADC7001926CE /* Services */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A17449C92A5B509A001926CE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				A17449C72A5B43F9001926CE /* ErrorView.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		A17449CC2A5C45FE001926CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A17449CD2A5C4617001926CE /* SearchServiceInterface.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +423,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A174496B2A599F6D001926CE /* ContentView.swift in Sources */,
+				A174496B2A599F6D001926CE /* MainView.swift in Sources */,
+				A17449BE2A5B299C001926CE /* Components.swift in Sources */,
+				A17449BA2A5ADF7A001926CE /* SearchResultEntity.swift in Sources */,
+				A17449A72A59B176001926CE /* MainViewModel.swift in Sources */,
+				A174499A2A59A210001926CE /* RequestError.swift in Sources */,
+				A17449CE2A5C4617001926CE /* SearchServiceInterface.swift in Sources */,
+				A17449982A59A1AB001926CE /* EndpointScheme.swift in Sources */,
+				A17449C02A5B29CA001926CE /* Date+.swift in Sources */,
+				A17449A52A59AF11001926CE /* SearchDTO.swift in Sources */,
+				A17449A02A59A496001926CE /* Endpoints.swift in Sources */,
+				A17449AD2A59BB66001926CE /* DetailsView.swift in Sources */,
 				A17449692A599F6D001926CE /* AviasalesTestApp.swift in Sources */,
+				A17449C22A5B29E8001926CE /* String+.swift in Sources */,
+				A17449C62A5B4394001926CE /* MainViewRow.swift in Sources */,
+				A17449B82A5AADA2001926CE /* DetailViewModel.swift in Sources */,
+				A17449A32A59AE07001926CE /* SearchService.swift in Sources */,
+				A17449C82A5B43F9001926CE /* ErrorView.swift in Sources */,
+				A17449B52A59E035001926CE /* SearchEnitity.swift in Sources */,
+				A17449C42A5B436A001926CE /* CityAndDateView.swift in Sources */,
+				A174499C2A59A241001926CE /* RequestMethod.swift in Sources */,
+				A17449962A59A0E6001926CE /* HTTPClient.swift in Sources */,
+				A17449CB2A5C439F001926CE /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +606,13 @@
 				DEVELOPMENT_TEAM = 7C9XLK3ZF6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AviasalesTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +620,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kasdasda.AviasalesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +640,13 @@
 				DEVELOPMENT_TEAM = 7C9XLK3ZF6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AviasalesTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +654,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kasdasda.AviasalesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
